@@ -1,4 +1,4 @@
-# Sexally - A Pleasure-Focused Sex Education Platform
+# Sexally - A no-shame Sex Education Platform
 
 > A comprehensive online platform dedicated to providing pleasure-focused sex education for teens and adults, aimed at breaking taboos and fostering open dialogue.
 
@@ -45,4 +45,5 @@ The project is built using standard web technologies to ensure a seamless and re
 * **Pantazi Eva**
 
 ---
+
 
