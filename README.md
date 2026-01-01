@@ -34,7 +34,7 @@ The project is built using standard web technologies to ensure a seamless and re
 
 **HTML5:** Organizes content into distinct sections (Articles, Quizzes, Chatrooms, etc.) for smooth navigation.
 **CSS3:** Features a vibrant **black and pink theme** with sleek layouts designed to work well on all device sizes.
-* [cite_start]**JavaScript:** Powers dynamic features such as form validation, interactive quizzes, and menu toggles.
+**JavaScript:** Powers dynamic features such as form validation, interactive quizzes, and menu toggles.
 
 
 ## 👥 Authors
@@ -45,3 +45,4 @@ The project is built using standard web technologies to ensure a seamless and re
 * **Pantazi Eva**
 
 ---
+
