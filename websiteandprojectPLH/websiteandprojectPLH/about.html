@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Agribot</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="report.html">REPORT</a></li>
+                        <li><a href="presentation.html">PRESENTATION</a></li>
+                        <li><a href="code.html">CODE</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars onclick="showMenu()></i>
+            </nav>
+           
+        </section>
+        
+        <!---ABout--->
+
+        <section class="footer">
+            <hr>
+            <h4>About me</h4>
+            <p>Ονομάζομαι Γεώργιος Παναγιώτης Καλφάκης είμαι προπτυχιακός φοιτητής του Πολυτεχνείου Κρήτης στο τελευταίο έτος των σπουδών μου. Οι γνώσεις μου πάνω στο Ros programming μέχρι πριν από αυτό το πρότζεκτ ήταν μηδαμινές, αν και ο προγραμματισμός είναι ένας τομέας που με ενδιαφέρει αρκετά. Για οποιαδήποτε πληροφορία επιθυμείτε μπορείτε να επικοινωνήσετε μαζί μου μέσω του προσωπικού μου e-mail: gkalfakis@isc.tuc.gr </p>
+            
+           <p>Copyright © 2022 <a href="index.html">gkalfakis</a> </p>
+        </section>
+
+
+
+
+
+
+
+
+
+<!------javaScript for togle Menu---------------->
+
+        <script>
+            var navLinks =document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
+    
